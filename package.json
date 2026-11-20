@@ -4,6 +4,6 @@
   "description": "List HTTP routes a Go backend has that its TypeScript port does not (and the reverse).",
   "type": "module",
   "bin": { "route-parity": "src/cli.mjs" },
-  "scripts": { "test": "node --test test/" },
+  "scripts": { "test": "node --test test/*.test.mjs" },
   "license": "MIT"
 }
